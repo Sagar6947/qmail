@@ -1,7 +1,10 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$config['base_url'] = 'http://localhost/starter/';
+$urlArray = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+define('WebUrl', $urlArray);
+
+$config['base_url'] = 'http://localhost/qmail/';
 
 $config['index_page'] = '';
 

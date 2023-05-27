@@ -1,0 +1,18 @@
+.password .input-group-append .input-group-text span.active::before,
+.cpassword .input-group-append .input-group-text span.active::before {
+    content: '\f070' !important;
+}
+
+.read_mail {
+    cursor: pointer;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    background-color: #fff;
+}
+
+.table-striped tbody tr.new {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgb(0 255 100 / 18%);
+}
